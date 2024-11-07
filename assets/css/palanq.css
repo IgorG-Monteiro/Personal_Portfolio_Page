@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+  .palanq_iframe-container {
+    padding-top: 8vh;
+  }
+}
+
+.palanq_iframe-container {
+  width: 96vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+}
+.pdf-viewer{
+  height: 100%;
+  width: 40%;
+}

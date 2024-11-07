@@ -651,8 +651,20 @@ img{
 }
 
 .portfolio__title{
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: var(--mb-0-5);
+    display: inline-block;
+}
+
+.palanq {
+    font-family: "Shrikhand", serif;
+    color: var(--title-color);
+    font-weight: 100;
+}
+  
+.ia {
+    font-family: "Shrikhand", serif;
+    color: #ff9900;
 }
 
 .portfolio__description{
