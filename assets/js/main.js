@@ -209,3 +209,23 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== CHANGE LANGUAGE====================*/ 
+
+const flag = document.getElementById('flag-button')
+
+flag.addEventListener('click', () => {
+    if (flag.classList.contains("fi-br")) {
+        flag.classList.remove("fi-br")
+        flag.classList.toggle("fi-us")
+    } 
+    else {
+        flag.classList.remove("fi-us")
+        flag.classList.toggle("fi-br")
+    }
+})
+
+function changelanguage(params) {
+    
+}
