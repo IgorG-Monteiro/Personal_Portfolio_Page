@@ -31,6 +31,37 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+// Function to redirect to the Portuguese version of the page
+function redirectToPortuguese() {
+    // Redirect the browser to the Portuguese version of the page
+    window.location.href = "../../index.html";
+  }
+  
+  // Add event listener to the translate image when the DOM is fully loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    const translateBtn = document.getElementById('translate_page');
+    
+    if (translateBtn) {
+      translateBtn.addEventListener('click', redirectToPortuguese);
+      
+    }
+  });
+
+  function redirectToEnglish() {
+    // Redirect the browser to the Portuguese version of the page
+    window.location.href = "assets/templates/index_pt.html";
+  }
+  
+  // Add event listener to the translate image when the DOM is fully loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    const translateBtnEn = document.getElementById('translate_page_en');
+    
+    if (translateBtnEn) {
+      translateBtnEn.addEventListener('click', redirectToEnglish);
+      
+    }
+  });
+
 
 /*==================== ACCORDION SKILLS ====================*/
 
