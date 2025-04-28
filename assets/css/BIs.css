@@ -1,0 +1,65 @@
+.main {
+    margin: 0;
+    margin-top: 7vh;
+    padding: 0;
+    padding-top: 1vh;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    height: 90vh;
+}
+
+.sidebar {
+    width: 240px;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background-color: #7db1dc;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card_active {
+    background-color: #42719a;
+    text-decoration: underline;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    background-color: #5987b0;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+}
+
+.iframe-container {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

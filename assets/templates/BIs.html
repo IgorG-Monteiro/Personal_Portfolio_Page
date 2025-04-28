@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/BIs.css">
+
+        <!--==================== FONT ====================-->
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+        <title>Igor M. Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="../../index.html" class="nav__logo">Igor</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="../../index.html#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Início
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../../index.html#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Sobre
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../../index.html#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../../index.html#qualification" class="nav__link">
+                                <i class="uil uil-graduation-cap nav__icon"></i> Qualificação
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../../index.html#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfólio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../../index.html#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contato
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change Button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <img id="translate_page" src="../img/estados-unidos.png" alt="" class="translate">
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+            <div class="sidebar">
+                <div id="resumo" class="card card_active">Resumo Financeiro - WV</div>
+                <div id="one-page"  class="card">One Page Report - WV</div>
+                <div id="iad"  class="card">ÍAD - TJMA</div>
+                <div id="tcl"  class="card">TCL - TJMA</div>
+                <div id="tempos"  class="card">Tempos Médios - TJMA</div>
+                <div id="celeridade"  class="card">Celeridade AP - TJMA</div>
+                <div id="metas"  class="card">Metas Nacionais - TJMA</div>
+                <div id="processos"  class="card">Processos Antigos - TJMA</div>
+                <div id="litigiosidade"  class="card">Litigiosidade - TJMA</div>
+                <div id="violencia"  class="card">Violencia Doméstica - TJMA</div>
+            </div>
+            <div class="main-content">
+                <div class="iframe-container">
+                    <!-- Replace the src with your actual BI dashboard URL -->
+                    <iframe id="dashboard-frame" src="https://app.powerbi.com/view?r=eyJrIjoiZWU4ZGZkNmEtODk2My00YmQzLTkzYzQtYjhhMGI1N2NkOTIzIiwidCI6ImIxY2E3YTgxLWFiZjgtNDJlNS05OGM2LWYyZjJhOTMwYmEzNiJ9" title="BI Dashboard"></iframe>
+                </div>
+            </div>
+
+        </main>
+            
+            <!--==================== RODAPÉ ====================-->
+            <footer class="footer">
+             <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Igor</h1>
+                        <span class="footer__subtitle">Cientista de Dados</span>
+                    </div>
+            
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/igorgmonteiro/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+            
+                        <a href="https://github.com/IgorG-Monteiro/" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+            
+                        <a href="https://www.credly.com/users/igor-monteiro.ds" target="_blank" class="footer__social">
+                            <i class="uil uil-award-alt"></i>
+                        </a>
+            
+                        <a href="http://lattes.cnpq.br/6776401477735453" target="_blank" class="footer__social">
+                            <i class="uil uil-file-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            
+                <p class="footer__copy">&#169; Igor Monteiro. Todos os direitos reservados</p>
+             </div>
+            </footer>
+            
+            <!--==================== BOTÃO VOLTAR AO TOPO ====================-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="uil uil-arrow-up scrollup__icon"></i>
+            </a>
+            
+            <!--==================== SWIPER JS ====================-->
+            <script src="../js/swiper-bundle.min.js"></script>
+            
+            <!--==================== MAIN JS ====================-->
+            <script src="../js/main.js"></script>
+            <script src="../js/BIs.js"></script>
+    </body>
+</html>            
